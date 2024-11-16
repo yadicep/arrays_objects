@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico Dental Ñuñoa</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4c455109a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+    <div class="container-fluid">
+        <h3 class="mt-5 text-center">"CENTRO MÉDICO DENTAL ÑUÑOA"</h3>
+        <h4 class="mt-5">Radiología</h4>
+        <table class="table table-success table-striped table-hover mb-5 border border-secondary">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Especialista</th>
+                    <th scope="col">Paciente</th>
+                    <th scope="col">R.U.T.</th>
+                    <th scope="col">Previsión</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>11:00</td>
+                    <td>IGNACIO SCHULZ</td>
+                    <td>FRANCISCA ROJAS</td>
+                    <td>9878782-1</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>11:30</td>
+                    <td>FEDERICO SUBERCASEAUX</td>
+                    <td>PAMELA ESTRADA</td>
+                    <td>15345241-3</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>15:00</td>
+                    <td>FERNANDO WURTHZ</td>
+                    <td>ARMANDO LUNA</td>
+                    <td>16445345-9</td>
+                    <td>ISAPRE</tr>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>15:30</td>
+                    <td>ANA MARIA GODOY</td>
+                    <td>MANUEL GODOY</td>
+                    <td>17666419-0</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>16:00</td>
+                    <td>PATRICIA SUAZO</td>
+                    <td>RAMON ULLOA</td>
+                    <td>14989389-K</td>
+                    <td>FONASA</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4 class="mt-5">Traumatología</h4>
+        <table class="table table-secondary table-striped table-hover mb-5 border border-secondary" id="traumaTable">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Especialista</th>
+                    <th scope="col">Paciente</th>
+                    <th scope="col">R.U.T.</th>
+                    <th scope="col">Previsión</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>8:00</td>
+                    <td>MARIA PAZ ALTUZARRA</td>
+                    <td>PAULA SANCHEZ</td>
+                    <td>15554774-5</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>10:00</td>
+                    <td>RAUL ARAYA</td>
+                    <td>ANGÉLICA NAVAS</td>
+                    <td>15444147-9</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>10:30</td>
+                    <td>MARIA ARRIAGADA</td>
+                    <td>ANA KLAPP</td>
+                    <td>17879423-9</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>11:00</td>
+                    <td>ALEJANDRO BADILLA</td>
+                    <td>FELIPE MARDONES</td>
+                    <td>1547423-6</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>11:30</td>
+                    <td>CECILIA BUDNIK</td>
+                    <td>DIEGO MARRE</td>
+                    <td>16554741-K</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>12:00</td>
+                    <td>ARTURO CAVAGNARO</td>
+                    <td>CECILIA MENDEZ</td>
+                    <td>9747535-8</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>12:30</td>
+                    <td>ANDRES KANACRI</td>
+                    <td>MARCIAL SUAZO</td>
+                    <td>11254785-5</td>
+                    <td>ISAPRE</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4 class="mt-5">Dental</h4>
+        <table class="table table-primary table-striped table-hover mb-5 border border-secondary">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Especialista</th>
+                    <th scope="col">Paciente</th>
+                    <th scope="col">R.U.T.</th>
+                    <th scope="col">Previsión</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>8:30</td>
+                    <td>ANDREA ZÚÑIGA</td>
+                    <td>MARCELA RETAMAL</td>
+                    <td>11123425-6</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>11:00</td>
+                    <td>MARIA PIA ZAÑARTU</td>
+                    <td>ANGEL MUÑOZ</td>
+                    <td>9878789-2</td>
+                    <td>ISAPRE</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>11:30</td>
+                    <td>SCARLETT WITTING</td>
+                    <td>MARIO KAST</td>
+                    <td>7998789-5</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>13:00</td>
+                    <td>FRANCISCO VON TEUBER</td>
+                    <td>KARIN FERNANDEZ</td>
+                    <td>18887662-K</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>13:30</td>
+                    <td>EDUARDO VIÑUELA</td>
+                    <td>HUGO SANCHEZ</td>
+                    <td>17665461-4</td>
+                    <td>FONASA</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>14:00</td>
+                    <td>RAQUEL VILLASECA</td>
+                    <td>ANA SEPULVEDA</td>
+                    <td>14441281-0</td>
+                    <td>ISAPRE</td>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <h2 class="mt-5 mb-5">Estadísticas</h2>
+
+        <h4>Cantidad de atenciones</h4>
+        <table class="table table-hover mb-5">
+            <thead class="text-center">
+                <tr class="d-flex table-secondary">
+                    <th class="col-sm-2 border border-secondary">Radiología</th>
+                    <th class="col-sm-2 border border border-start-0 border-secondary">Traumatología</th>
+                    <th class="col-sm-2 border border border-start-0 border-secondary">Dental</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="d-flex">
+                    <td class="col-sm-2 border border-top-0 border-secondary" id="cantRadiologia"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="cantTraumatologia">Otto</td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="cantDental">@mdo</td>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <h2 class="mt-5 mb-5">Atenciones</h2>
+
+        <h4>Radiología</h4>
+        <table class="table table-hover mb-5">
+            <thead class="text-center">
+                <tr class="d-flex table-secondary">
+                    <th class="col-sm-2 border border-secondary">Atención</th>
+                    <th class="col-sm-4 border border border-start-0 border-secondary">Paciente</th>
+                    <th class="col-sm-2 border border border-start-0 border-secondary">Previsión</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Primera</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="radioPrimeraPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="radioPrimeraPrevision"></td>
+                </tr>
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Última</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="radioUltimaPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="radioUltimaPrevision"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Traumatología</h4>
+        <table class="table table-hover mb-5">
+            <thead class="text-center">
+                <tr class="d-flex table-secondary">
+                    <th class="col-sm-2 border border-secondary">Atención</th>
+                    <th class="col-sm-4 border border border-start-0 border-secondary">Paciente</th>
+                    <th class="col-sm-2 border border border-start-0 border-secondary">Previsión</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Primera</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="traumaPrimeraPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="traumaPrimeraPrevision"></td>
+                </tr>
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Última</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="traumaUltimaPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="traumaUltimaPrevision"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Dental</h4>
+        <table class="table table-hover mb-5">
+            <thead class="text-center">
+                <tr class="d-flex table-secondary">
+                    <th class="col-sm-2 border border-secondary">Atención</th>
+                    <th class="col-sm-4 border border border-start-0 border-secondary">Paciente</th>
+                    <th class="col-sm-2 border border border-start-0 border-secondary">Previsión</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Primera</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="dentalPrimeraPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="dentalPrimeraPrevision"></td>
+                </tr>
+                <tr class="d-flex">
+                    <th class="col-sm-2 border border-top-0 border-secondary">Última</th>
+                    <td class="col-sm-4 border border-top-0 border border-start-0 border-secondary" id="dentalUltimaPaciente"></td>
+                    <td class="col-sm-2 border border-top-0 border border-start-0 border-secondary" id="dentalUltimaPrevision"></td>
+                </tr>
+            </tbody>
+        </table><br>
+        <hr>
+
+        <!-- <h3 class="mt-5 text-center">"DESARROLLO DESAFÍO"</h3>
+
+        <h2 class="mt-5 mb-5">1. Agregar horas a Traumatología</h2>
+
+        <form class="w-50" id="formOne" method="post" action="#">
+            <div class="row">
+                <div class="col">
+                    <select class="form-select formInput" name="hora" id="hora" type="text">
+                        <option selected>Hora</option>
+                        <option value="1">8:00</option>
+                        <option value="2">8:30</option>
+                        <option value="3">9:00</option>
+                        <option value="4">9:30</option>
+                        <option value="5">10:00</option>
+                        <option value="6">10:30</option>
+                        <option value="7">11:00</option>
+                        <option value="8">11:30</option>
+                        <option value="9">12:00</option>
+                        <option value="10">12:30</option>
+                        <option value="11">13:00</option>
+                        <option value="12">13:30</option>
+                        <option value="13">14:00</option>
+                        <option value="14">14:30</option>
+                        <option value="15">15:00</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select formInput" name="prevision" id="prevision" type="text">
+                        <option selected>Previsión</option>
+                        <option value="1">FONASA</option>
+                        <option value="2">ISAPRE</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">R.U.T.</span>
+                        <input class="form-control formInput" name="rut" id="rut" type="text" placeholder="11333666-5">
+                    </div>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Especialista</span>
+                <input class="form-control formInput" name="especialista" id="especialista" type="text" placeholder="NOMBRE APELLIDO" >
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Paciente</span>
+                <input class="form-control formInput" name="paciente" id="paciente" type="text" placeholder="NOMBRE APELLIDO">
+            </div>
+            <button id="agregar" type="submit" class="btn btn-primary">Agregar</button>
+        </form>
+        <br><br>
+        <table class="table table-striped mb-5" id="tableOne"></table>
+
+        <br>
+        <h2 class="mt-5 mb-5">2. Eliminar el primer y último elemento de Radiología</h2>
+
+        <P>Desarrollo usando forms</P>
+
+        <br>
+        <h2 class="mt-5 mb-5">3. Lista de consultas médicas de Dental</h2>
+
+        <P>Desarrollo usando forms</P>
+
+        <br>
+        <h2 class="mt-5 mb-5">4. listado total de todos los pacientes</h2>
+
+        <P>Desarrollo usando forms</P>
+
+        <br>
+        <h2 class="mt-5 mb-5">5. Pacientes de Dental con Isapre</h2>
+
+        <P>Desarrollo usando forms</P>
+
+        <br>
+        <h2 class="mt-5 mb-5">6. Pacientes de Traumatología con Fonasa</h2>
+
+        <P>Desarrollo usando forms</P> -->
+
+        <br><br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
